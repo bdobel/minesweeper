@@ -9,7 +9,7 @@
 // When done run `.exit`
 
 
-import Board from './board';
+import { Board } from './board';
 
 class Game {
   constructor(numberOfRows, numberOfColumns, numberOfBombs) {
